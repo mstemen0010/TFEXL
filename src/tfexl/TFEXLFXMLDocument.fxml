@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="505.0" prefWidth="404.0" styleClass="mainFxmlClass" stylesheets="@style/Flatfxml.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tfexl.TFEXLFXMLDocumentController">
+   <children>
+      <Pane layoutX="14.0" layoutY="14.0" prefHeight="173.0" prefWidth="379.0" styleClass="mainFxmlClass" stylesheets="@style/Flatfxml.css">
+         <children>
+            <Pane layoutX="8.0" layoutY="14.0" prefHeight="115.0" prefWidth="121.0" styleClass="mainFxmlClassOrange">
+               <children>
+                  <Label contentDisplay="CENTER" layoutX="14.0" layoutY="27.0" prefHeight="61.0" prefWidth="87.0" styleClass="flat-label-32" stylesheets="@style/Flatfxml.css" text="2048" textAlignment="CENTER" />
+               </children>
+            </Pane>
+            <Pane layoutX="135.0" layoutY="14.0" prefHeight="152.0" prefWidth="113.0" styleClass="mainFxmlClassPomengranted" />
+            <Pane layoutX="255.0" layoutY="14.0" prefHeight="152.0" prefWidth="113.0" styleClass="mainFxmlClassOrange" />
+         </children>
+      </Pane>
+      <Pane layoutX="14.0" layoutY="193.0" prefHeight="301.0" prefWidth="379.0" styleClass="mainFxmlClassOrange">
+         <children>
+            <Canvas id="c1" fx:id="c1" height="75.0" layoutX="15.0" layoutY="15.0" styleClass="mainFxmlClassPomengranted" width="75.0" />
+            <Canvas id="c1" fx:id="c2" height="75.0" layoutX="95.0" layoutY="15.0" styleClass="mainFxmlClassPomengranted" width="75.0" />
+            <Canvas id="c3" fx:id="c3" height="75.0" layoutX="175.0" layoutY="15.0" styleClass="mainFxmlClassPomengranted" width="75.0" />
+            <Canvas id="c4" fx:id="c4" height="75.0" layoutX="255.0" layoutY="15.0" styleClass="mainFxmlClassPomengranted" width="75.0" />
+            <Canvas id="c5" fx:id="c5" height="75.0" layoutX="15.0" layoutY="95.0" styleClass="mainFxmlClassPomengranted" width="75.0" />
+            <Canvas id="c6" fx:id="c6" height="75.0" layoutX="95.0" layoutY="95.0" styleClass="mainFxmlClassPomengranted" width="75.0" />
+            <Canvas id="c7" fx:id="c7" height="75.0" layoutX="175.0" layoutY="95.0" styleClass="mainFxmlClassPomengranted" width="75.0" />
+            <Canvas id="c8" fx:id="c8" height="75.0" layoutX="255.0" layoutY="95.0" styleClass="mainFxmlClassPomengranted" width="75.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
